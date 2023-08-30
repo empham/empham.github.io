@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Emily Pham",
-    "label": "Pursuing BS in Computer Engineering at the Uinversity of Hawaii: Manoa",
+    "label": "Student at the University of Hawaii",
     "picture": "https://github.com/empham.png",
     "email": "emilyn3(at)hawaii.edu",
     "phone": "",
     "website": "https://empham.github.io",
-    "summary": "I am pursuing a B.S. in Computer Engineering in the Department of Engineering and a minor in Japanese in the Department of East Asian Languages & Literature at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "summary": "I am pursuing a B.S. in Computer Engineering in the Department of Engineering and a minor in Japanese in the Department of East Asian Languages & Literature. I expect to graduate in Spring, 2024.",
     "location": { "address": "Mōʻiliʻili", "postalCode": "96826", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "empham", "url": "http://github.com/empham" },
@@ -15,98 +15,78 @@
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
+    { "name": "Networks" },
+    { "name": "Neural Networks" },
+    { "name": "Biomedical Sensors" },
+    { "name": "Human-Machine Interfaces" },
     { "name": "Photography" }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "name": "Languages (Medium/Advance)",
+      "keywords": [ "C", "C++", "MIPS Assembly", "MatLab" ]
+    },
+    {
+      "name": "Languages (Basic)",
+      "keywords": [ "Javascript", "Python ", "SystemVerilog" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Windows 10", "Linux", "Git/GitHub", "g++", "Bash" ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "University of Hawaii: Mānoa, Honolulu, HI",
+      "area": "Computer Engineering (expected Spring, 2024)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "August 2019",
       "endDate": "Present",
-      "courses": [
+      "key courses": [
+        "Object-oriented Programming",
+        "Software Engineering",
+        "Microelectronic Circuits"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "UH Manoa Children's Center",
+      "position": "Teacher's Aide",
+      "website": "https://manoa.hawaii.edu/childrenscenter/",
+      "startDate": "July 2019",
+      "endDate": "August 2022",
+      "summary": "",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "As part of a team, worked alongside the teachers to care for children from ages 2 to 4 years old",
+        "Being a senior aide, acted as a substitute teacher on numerous occasions"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
+      "company": "Honeyboba",
+      "position": "Barista",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "July 2018",
+      "endDate": "September 2018",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Took customer's orders, prepared beverages, and restocked topping bar in an efficient manner",
+        "Maintained a clean and tidy kitchen and dining area to ensure a safe environment"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Provost Achievement (formerly Chancellor’s) Scholarship",
+      "date": "2019",
+      "awarder": "University of Hawaii",
+      "summary": "One of the The New Warrior Scholarships that is awarded to new incoming students which provides recognition and support to outstanding students based on their academic accomplishments and contributions to their community."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Dean's List",
+      "date": "Spring 2020 - Spring 2022",
+      "awarder": "University of Hawaii College of Engineering",
+      "summary": "Signifies a student's completion of 12 or more credits with a GPA of 3.5 or higher, and recognizes their overall excellent academic performance for the semester."
     }
   ],
   "references": [
