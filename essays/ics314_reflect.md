@@ -17,7 +17,6 @@ Fast forward to August 24, 2023, i.e. first in-person class. I walked into the c
 
 ## Premonitions of Suffering: ASE and WODs
 <img width="400px" class="rounded float-start pe-4" src="../img/ics314_reflect/stress.png">
-<br>
 Athletic Software Engineering (ASE) is a programming pedagogy that focuses on building a student's competency by actively exercising necessary skills. WODs, or Workout of the Day, are the main way we do this. WODs are timed pass/fail exercises that try to get students to efficiently and effectively apply the skills they are learning. Let me emphasize: **PASS/FAIL**. No partial credit and no retries. This means once a week my stress levels skyrocket. I've included a graph of my predicted stress levels throughout the week due to this class for illustrative purposes.<br>
 While I do agree with the ASE learning method, and think it closely fits my personal learning style, I don't know if my heart can take it. Despite a few failed WODs that are surely waiting for me ahead, I can only move forward. Even now as I prepare for my upcoming WOD, I find myself trying to put faith in the experience I've gained from completing a few practice WODs. 
 
