@@ -23,10 +23,10 @@ While I do agree with the ASE learning method, and think it closely fits my pers
 ## The Sacred (Java)Script Brings Hope
 Although the future is looking bleak, some hope came in the form of JavaScript. Until now, I have learned a variety of languages ranging from Assembly to Python. If I was to compare JavaScript to one of the languages I've learned before, I would say it most closely resembles Python, but isn't quite the same. While I only have a basic understanding of the language, it is quickly becoming one of my favorites.
 
-### The good
+### The good,
 In particular I love its flexibility combined with simplicity. An example of this is the return value of a function. Unlike C or C++, JavaScripts allows a function to return a variety of values. This allows for a more natural approach to functions. This flexibility isn't limited to return statements, but also extends to variables like arrays. A single array is able to hold a combination of variable types, thereby providing a simple, intuitive way of grouping data.
 
-### The bad
+### The bad,
 There are a lot of positives to JavaScript, but it isn't perfect. My first qualm with JavaScript, while not actually a part of the language, is the way it is taught through FreeCodeCamp. Their many mini-lessons were informative, but the short coding exercises were not memorable enough to make the information stick. There were a few interesting and challenging problems such as "[Counting Cards](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/counting-cards)" which actually solidified concepts in my mind.
 While this may be due to my lack of knowledge, I find JavaScript's lack of built-in data structures to be an annoyance. When thinking about a solution to a coding problem I often start by choosing a data structure. Thus, when I want to use a dictionary or hash table, I prefer the C++ way where each is a structure that comes with methods.
 
