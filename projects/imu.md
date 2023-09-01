@@ -26,8 +26,8 @@ The first part of my research focused on the validation of the dual IMU system i
 Starting with code from one of my seniors in the laboratory, I used a combination of MatLab and python to perform these calculations. THe final data was exported to Excel where the visuals were generated.
 
 ## Angle Estimation with LSTM
-<img src="../img/imu/LSTM-diagram.png" max-width="214px" alt="simplified diagram of LSTM model.">
-<img src="../img/imu/estimate-angle.png" width="514px" alt="sample results from LSTM.">
+<img src="../img/imu/LSTM-diagram.png" width="214px" alt="simplified diagram of LSTM model.">
+<img src="../img/imu/estimate-angle.png" width="1028px" alt="sample results from LSTM.">
 The second part of my researched aimed at decreasing the necessary IMUs to one in order to decrease cost while improve ease-of-use. When only using the lower IMU, estimation of the joint angles must be performed. Utilizing the pandas and tensorflow packages in Python, I designed an LSTM based on a fellow lab mate's work. While the final results are not ideal, they suggest the feasibility of this method. The accuracy of the LSTM model is expected to improve with future refinements.
 
 Source: available upon request
