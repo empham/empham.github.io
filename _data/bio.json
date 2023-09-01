@@ -2,7 +2,7 @@
   "basics": {
     "name": "Emily Pham",
     "label": "Student at the University of Hawaii",
-    "picture": "https://github.com/empham.png",
+    "picture": "../img/empham_Sqr.jpg",
     "email": "emilyn3(at)hawaii.edu",
     "phone": "",
     "website": "https://empham.github.io",
