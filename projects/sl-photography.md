@@ -3,7 +3,7 @@ layout: project
 type: project
 image: ../img/sl-photography/logo-square.png
 title: "SirLuciole Photography"
-date: `r Sys.Date()`
+date: 2023
 published: true
 labels:
   - Lisp
