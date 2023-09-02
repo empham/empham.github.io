@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/imu/imu_thumbnail.png
+image: ../img/imu/imu_thumbnail.png
 title: "IMU System for Upper Limb Rehabilitation"
 date: 2023
 published: true
