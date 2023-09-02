@@ -2,7 +2,7 @@
 
 /* Use Open Sans as the default font. */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Garamond:300,400,500,700");
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
@@ -24,7 +24,10 @@ h1,h2,h3,h4,h5 {
   color: var(--tf-blue1);
   font-family: Garamond;
 }
-
+/* Format nav bar */
+.navbar {
+  background-color: var(--tf-blue4);
+}
 /* Format social media icons */
 .tf-social {
   display: inline-block;
