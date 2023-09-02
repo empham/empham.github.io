@@ -2,12 +2,13 @@
 layout: project
 type: project
 image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
-published: false
+title: "SCADA Lab"
+date: 2022
+published: true
 labels:
-  - Lisp
-  - GitHub
+  - SCADA
+  - Raspberry Pi
+  - Networks
 summary: "A text adventure game that I developed for ICS 313."
 ---
 
