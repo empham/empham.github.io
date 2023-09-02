@@ -28,7 +28,7 @@ Starting with code from one of my seniors in the laboratory, I used a combinatio
 ## Angle Estimation with LSTM
 <img src="../img/imu/estimate-angle.png" class="img-fluid" width="1028px" alt="sample results from LSTM.">
 
-<img src="../img/imu/LSTM-diagram.png" width="214px" alt="simplified diagram of LSTM model.">
+<img src="../img/imu/LSTM-diagram.png" width="214px"  style="float:left" alt="simplified diagram of LSTM model.">
 
 The second part of my researched aimed at decreasing the necessary IMUs to one in order to decrease cost while improve ease-of-use. When only using the lower IMU, estimation of the joint angles must be performed. Utilizing the pandas and tensorflow packages in Python, I designed an LSTM based on a fellow lab mate's work. While the final results are not ideal, they suggest the feasibility of this method. The accuracy of the LSTM model is expected to improve with future refinements.
 
