@@ -1,13 +1,14 @@
 ---
 layout: project
 type: project
-image: ../img/sl-photography/logo-square.png
+image: ../img/sl-photography/logo-square.jpg
 title: "SirLuciole Photography"
 date: 2023
 published: true
 labels:
-  - Lisp
-  - GitHub
+  - Photography
+  - Notion
+  - Super.so
 summary: "A photography website designed to showcase my work. Specifically focused on my work in Japan."
 ---
 
