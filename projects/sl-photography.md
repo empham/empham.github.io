@@ -3,8 +3,8 @@ layout: project
 type: project
 image: ../img/sl-photography/logo-square.png
 title: "SirLuciole Photography"
-date: 2014
-published: false
+date: `r Sys.Date()`
+published: true
 labels:
   - Lisp
   - GitHub
