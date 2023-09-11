@@ -67,4 +67,7 @@ Cons:<br>
 This question inspired a wide range of beautifully formatted and detailed solutions. one such solution (shown in the image below) even went as far as to create visuals and explained the underlying concepts. This type of thread provided a great platform for everyone to learn from each other through sharing their knowledge. 
 
 ## **Keep asking questions!**
-While every question may not be a great question, it is important to keep asking. It is through experience that we can improve our questioning skills. As the Amoeba Sisters, who got me through AP Bio, like to say, "Stay curious." 
+While every question may not be a great question, it is important to keep asking. It is through experience that we can improve our questioning skills. As the Amoeba Sisters (who got me through AP Biology) like to say, "Stay curious."
+
+
+Used as reference: [_"Smart Questions"_](http://www.catb.org/esr/faqs/smart-questions.html)
