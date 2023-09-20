@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "The Path to Knowledge is paved with Great Questions"
+title: "The path to knowledge is paved with Great Questions"
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-08
 published: true
