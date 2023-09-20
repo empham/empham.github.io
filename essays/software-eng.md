@@ -33,3 +33,4 @@ The only way to progress forward is through learning and experience. In terms of
 
 References:<br>
 [IBM: What is software development?](https://www.ibm.com/topics/software-development)
+[分かれ道で迷う人のイラスト（女性）](https://www.irasutoya.com/2014/02/blog-post_7235.html)
