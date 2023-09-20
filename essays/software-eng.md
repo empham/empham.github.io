@@ -13,8 +13,13 @@ labels:
 > Software engineers apply engineering principles to build software and systems to solve problems. They use modeling language and other tools to devise solutions that can often be applied to problems in a general way, as opposed to merely solving for a specific instance or client.
 > <div style="text-align: right;"> -IBM </div>
 
-
 ## **What to do with a Computer Engineering degree?**
+<div style="text-align: center">
+<img style="inset-inline: auto" src="../img/software-eng/wakaremichi_woman.png">
+<figcaption>
+分かれ道で迷う人のイラスト（女性）
+</figcaption><br>
+</div>
 As a Computer Engineering major, the career paths available to me are diverse and plentiful. Some students go on to work in the hardware industry, designing and building the next generation of computers. Others go into software, building AI models, maintaining databases, and so on. As for me, I am currently undecided on which path I will take, but this semester's ICS 314, Software Engineering, might win me over.
 
 ## **Why would I want to be a Software Engineer?**
