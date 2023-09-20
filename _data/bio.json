@@ -39,7 +39,7 @@
       "institution": "University of Hawaii: Mānoa, Honolulu, HI",
       "area": "Computer Engineering (expected Spring, 2024)",
       "studyType": "B.S.",
-      "startDate": "Aug 2019",
+      "startDate": "08-01-2019",
       "endDate": "Present",
       "key courses": [
         "Object-oriented Programming",
@@ -53,8 +53,8 @@
       "company": "UH Manoa Children's Center",
       "position": "Teacher's Aide",
       "website": "https://manoa.hawaii.edu/childrenscenter/",
-      "startDate": "Jul 2019",
-      "endDate": "Aug 2022",
+      "startDate": "07-01-2019",
+      "endDate": "08-01-2022",
       "summary": "",
       "highlights": [
         "As part of a team, worked alongside the teachers to care for children from ages 2 to 4 years old",
@@ -65,8 +65,8 @@
       "company": "Honeyboba",
       "position": "Barista",
       "website": "",
-      "startDate": "Jul 2018",
-      "endDate": "Sept 2018",
+      "startDate": "07-01-2018",
+      "endDate": "09-01-2018",
       "summary": "",
       "highlights": [
         "Took customer's orders, prepared beverages, and restocked topping bar in an efficient manner",
@@ -77,7 +77,7 @@
   "awards": [
     {
       "title": "Provost Achievement (formerly Chancellor’s) Scholarship",
-      "date": "2019",
+      "date": "Fall 2019 - Spring 2023",
       "awarder": "University of Hawaii",
       "summary": "One of the The New Warrior Scholarships that is awarded to new incoming students which provides recognition and support to outstanding students based on their academic accomplishments and contributions to their community."
     },
