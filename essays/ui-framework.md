@@ -47,13 +47,13 @@ In my software engineering journey, I have only just started learning about HTML
 <p><small>
 With UI Framework (Bootstrap 5)
 </small></p>
-<img width="500" src="../img/ui-framework/Screenshot%202023-10-06%20103954.png">
+<img width="500" src="../img/ui-framework/doutor.png">
 </th>
 <th>
 <p><small>
 Without UI Framework (Bootstrap 5)
 </small></p>
-<img width="500" src="../img/ui-framework/Screenshot%202023-10-06%20104055.png">
+<img width="500" src="../img/ui-framework/browserhistory.png">
 </th>
 </tr>
 
