@@ -37,3 +37,39 @@ In my software engineering journey, I have only just started learning about HTML
 
 **Steep learning curve**
 <p>This may be more of a personal opinion, but I find learning Bootstrap 5 to be an arduous task. One must memorize the various class names word for word and understand where to add them for the best results. Additionally I have yet to come across a pieces of software that can suggest proper code or give hints. While it allows for quick development in the early stages, I find myself wasting time searching through the documentations for a specific keyword I missed.</p>
+
+## **A quick case study**
+<p>Finally, I'd like to wrap up this essay with a comparison of two of my more recent works. Keep in mind I am just starting my journey so please take this with a large grain of salt.</p>
+
+<table>
+<tr>
+<th>
+<p><small>
+With UI Framework (Bootstrap 5)
+</small></p>
+<img width="500" src="../img/ui-framework/Screenshot%202023-10-06%20103954.png">
+</th>
+<th>
+<p><small>
+Without UI Framework (Bootstrap 5)
+</small></p>
+<img width="500" src="../img/ui-framework/Screenshot%202023-10-06%20104055.png">
+</th>
+</tr>
+
+<tr>
+<td>
+
+- Clean, attractive design<br>
+- Complex navbar<br>
+- Implementation of a dropdown menu<br>
+- Easy to implement<br>
+</td>
+<td>
+
+- Simplistic design<br>
+- Minimal implementation of interactive parts<br>
+- Time-intensive if customized<br>
+</td>
+</tr>
+</table>
