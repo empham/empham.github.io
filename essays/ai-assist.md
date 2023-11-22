@@ -62,7 +62,9 @@ AI has, and will continue to have, a significant impact in the realm of educatio
 
 On the topic of maturing AI, it is important to note that AI is not perfect. It is still in its infancy and has a long way to go. oftentimes it can spread misinformation or be unable to complete tasks that are trivial to humans. While this remains a barrier to the widespread integration of AI, with time I am sure engineers and great minds will overcome these challenges.
 
-## **Conclusion**
+## **Future Considerations & Conclusion**
+In the future I see AI becoming a regular part of software engineering education. Just as we learn how to use various tools, applications, and development environments, we will also learn to use AI. I imagine it will one day handle almost all of the basics of writing code, allowing engineers to focus in on things like algorithms and top level design. It will be a slow and challenging process, but I believe it will be worth it.
+
 If there is any singular message within all of this I would say it is this: 
 
 When leveraged correctly, AI is a powerful tool that enhances learning and life. Rather than pushing it away, we should embrace and add it to the toolbox, but never let it replace the engineer using it.
