@@ -4,7 +4,7 @@ type: essay
 title: "Max/Min-ing my Education with AI"
 # All dates must be YYYY-MM-DD format!
 date: 2023-11-21
-published: true
+published: false
 labels:
   - GitHub CoPiolot
   - ChatGPT

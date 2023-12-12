@@ -4,7 +4,7 @@ type: essay
 title: "What is a Software Engineer? From the perpective of a Computer Engineering major"
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-11
-published: true
+published: false
 labels:
   - Software Engineering
   - Expectations
