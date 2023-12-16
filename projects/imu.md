@@ -19,11 +19,16 @@ For the 2022-2023 Academic Year I participated in JYPE, the Junior Year Program 
 Currently, the research focus of Watanabe Lab is studying the application of various biomedical devices in rehabilitation and daily life of patients living with paralysis. My particular research focus was on the use of Inertial Measurement Units (IMUs) to quantify movement of the upper limb. This system would enable tracking of patient progress during at-home rehabilitation. 
 
 <h2 style="white-space: nowrap;">Joint Angle Measurement with IMUs</h2> 
+<table>
+<th>
 <img src="../img/imu/setup.png" style="float:left" width="294px" alt="diagram illustrating the positioning of the IMU sensors and reflective markers on the right arm.">
-
+</th>
+<th style="font-weight: normal">
 The first part of my research focused on the validation of the dual IMU system illustrated in figure 2.1. The acceleration and angular velocity measured with the IMUs, shoulder and elbow joint angles were calculated. Using the 3-D positional data recorded with the motion capture system, positional vectors, and thereby joint angles were also obtained. The angle measurements were synchronized, then Root Mean Square Error (RMSE) and Pearson correlation coefficients were used for comparison.<br>
 
 Starting with code from one of my seniors in the laboratory, I used a combination of MatLab and python to perform these calculations. The final data was exported to Excel where the visuals were generated.<br>
+</th>
+</table>
 
 ## Angle Estimation with LSTM
 <img src="../img/imu/estimate-angle.png" class="img-fluid" width="1028px" alt="sample results from LSTM.">
@@ -31,5 +36,10 @@ Starting with code from one of my seniors in the laboratory, I used a combinatio
 <img src="../img/imu/LSTM-diagram.png" width="214px"  style="float:left" alt="simplified diagram of LSTM model.">
 
 The second part of my researched aimed at decreasing the necessary IMUs to one in order to decrease cost while improve ease-of-use. When only using the lower IMU, estimation of the joint angles must be performed. Utilizing the pandas and tensorflow packages in Python, I designed an LSTM based on a fellow lab mate's work. While the final results are not ideal, they suggest the feasibility of this method. The accuracy of the LSTM model is expected to improve with future refinements.
-
-Source: available upon request
+<br>
+<br>
+<br>
+<br>
+<br>
+Source: available upon request*<br>
+*Due to the nature of the research and rules of the program, I am unable to share the full report.*
