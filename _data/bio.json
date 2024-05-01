@@ -15,10 +15,10 @@
     ]
   },
   "interests": [
-    { "name": "Networks" },
-    { "name": "Neural Networks" },
     { "name": "Biomedical Sensors" },
-    { "name": "Photography" }
+    { "name": "Networks" },
+    { "name": "Photography" },
+    { "name": "日本語" }
   ],
   "skills": [
     {
