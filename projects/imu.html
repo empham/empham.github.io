@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="IMU System for Upper Limb Rehabilitation | Emily Pham | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/empham.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Emily Pham | Professional Portfolio">
+    <meta property="og:url" content="https://empham.github.io/projects/imu.html">
+    <meta property="og:title" content="IMU System for Upper Limb Rehabilitation | Emily Pham | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/empham.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/sl-blue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>IMU System for Upper Limb Rehabilitation | Emily Pham | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/" style="font-family: Garamond;">Emily Pham </a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+<!--        <a class="nav-link" href="/#projects">Projects</a>-->
+<!--        <a class="nav-link" href="/#essays">Essays</a>-->
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">IMU System for Upper Limb Rehabilitation</h1>
+ <p><img class="img-fluid" src="../img/imu/imu-header.png" /></p>
+
+<p>For the 2022-2023 Academic Year I participated in JYPE, the Junior Year Program in English at Tohoku University. Located in Sendai, Japan, Tohoku University is one of Japan’s top research institute, and as part of my exchange program I was able to conduct research as a member of <a href="https://www.ecei.tohoku.ac.jp/fes/English/index_eng.html">Watanabe Laboratory</a>.
+Currently, the research focus of Watanabe Lab is studying the application of various biomedical devices in rehabilitation and daily life of patients living with paralysis. My particular research focus was on the use of Inertial Measurement Units (IMUs) to quantify movement of the upper limb. This system would enable tracking of patient progress during at-home rehabilitation.</p>
+
+<h2 style="white-space: nowrap;">Joint Angle Measurement with IMUs</h2>
+<table>
+<th>
+<img src="../img/imu/setup.png" style="float:left" width="294px" alt="diagram illustrating the positioning of the IMU sensors and reflective markers on the right arm." />
+</th>
+<th style="font-weight: normal">
+The first part of my research focused on the validation of the dual IMU system illustrated in figure 2.1. The acceleration and angular velocity measured with the IMUs, shoulder and elbow joint angles were calculated. Using the 3-D positional data recorded with the motion capture system, positional vectors, and thereby joint angles were also obtained. The angle measurements were synchronized, then Root Mean Square Error (RMSE) and Pearson correlation coefficients were used for comparison.<br />
+
+Starting with code from one of my seniors in the laboratory, I used a combination of MatLab and python to perform these calculations. The final data was exported to Excel where the visuals were generated.<br />
+</th>
+</table>
+
+<h2 id="angle-estimation-with-lstm">Angle Estimation with LSTM</h2>
+<p><img src="../img/imu/estimate-angle.png" class="img-fluid" width="1028px" alt="sample results from LSTM." /></p>
+
+<p><img src="../img/imu/LSTM-diagram.png" width="214px" style="float:left" alt="simplified diagram of LSTM model." /></p>
+
+<p>The second part of my researched aimed at decreasing the necessary IMUs to one in order to decrease cost while improve ease-of-use. When only using the lower IMU, estimation of the joint angles must be performed. Utilizing the pandas and tensorflow packages in Python, I designed an LSTM based on a fellow lab mate’s work. While the final results are not ideal, they suggest the feasibility of this method. The accuracy of the LSTM model is expected to improve with future refinements.
+<br />
+<br />
+<br />
+<br />
+<br />
+Source: available upon request<em><br />
+*Due to the nature of the research and rules of the program, I am unable to share the full report.</em></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

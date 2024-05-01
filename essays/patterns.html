@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="The Design Patterns TCG Deck | Emily Pham | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/empham.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Emily Pham | Professional Portfolio">
+    <meta property="og:url" content="https://empham.github.io/essays/patterns.html">
+    <meta property="og:title" content="The Design Patterns TCG Deck | Emily Pham | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/empham.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/sl-blue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>The Design Patterns TCG Deck | Emily Pham | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/" style="font-family: Garamond;">Emily Pham </a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+<!--        <a class="nav-link" href="/#projects">Projects</a>-->
+<!--        <a class="nav-link" href="/#essays">Essays</a>-->
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">The Design Patterns TCG Deck</h1>
+  <span class="date">30 Nov 2023</span>
+  <hr>
+  <h2 id="making-sense-of-design-patterns-through-tcg"><strong>Making Sense of Design Patterns through TCG</strong></h2>
+<p>Design patterns are a general guide to solving common engineering problems. By “common engineering problems” I mean certain types of problems an engineer repeatedly encounters. For example, in software engineering a common problem is data storage and delivery. Now every project will require a slightly different answer, but a design pattern like the “Model-View-Controller” (MVC) pattern can be used as a guide to solving the problem. I like to imagine them as cards in a deck. Each card is a design pattern we can pull out to solve a problem. Thus while introducing some design patterns I’ve used in my time as a software engineer, I have corresponding card taken from a different TCG.</p>
+
+<p><em>Disclaimer: I don’t understand the rules of all these TCGs and chose these cards based on surface level understanding.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Design Pattern</th>
+      <th>Card Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Singleton</td>
+      <td>One for All</td>
+    </tr>
+    <tr>
+      <td>MVC</td>
+      <td>Agent of Mask</td>
+    </tr>
+    <tr>
+      <td>Observer (Publish-Subscribe)</td>
+      <td>Caduceus</td>
+    </tr>
+    <tr>
+      <td>Observer (Reactive Data)</td>
+      <td>Team Skull Grunts</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /> <br /></p>
+
+<h2 id="singleton"><strong>Singleton</strong></h2>
+<div style="text-align: center">
+<img style="inset-inline: auto" src="../img/patterns/one-for-all.png" width="300" />
+</div>
+<p>The singleton design pattern is used in a similar way to a global variable. It ensures that only one instance of a class can exist at any given time. This is useful when you want to be able to access data from various places in your code, while also ensuring the integrity of said data. I’ve used this often when creating and managing databases (i.e. collections) in MongoDB. Each collection has a single instance that is exported as a constant variable.</p>
+
+<p>I’ve chosen this card card for it’s title “One for All”. This is a reference to the fact that there is only one instance of the class.</p>
+
+<h2 id="model-view-controller-mvc"><strong>Model-View-Controller (MVC)</strong></h2>
+<div style="text-align: center">
+<img style="inset-inline: auto" src="../img/patterns/agent-of-masks.jpg" width="300" />
+</div>
+<p>The MVC design pattern is used to separate the data, management, and presentation of a program. There are a lot of benefits to such a pattern. Each component is compartmentalized and therefore can be worked on individually. Different people can specialize in different components. It also provides various visualizations of data that can best fit each user’s needs. I’ve used this pattern most recently with a web application I’m working on. The data itself is stored in mongoDB databases, the management is done through Meteor’s routing, and the presentation is done through React components.</p>
+
+<p>This card was chosen for it’s reference to masks. The MVC pattern is about hiding the inner data from the end user and presenting it in a way that benefits them.</p>
+
+<h2 id="observer-publish-subscribe"><strong>Observer (Publish-Subscribe)</strong></h2>
+<div style="text-align: center">
+<img style="inset-inline: auto" src="../img/patterns/caduceus.jpg" width="300" />
+</div>
+<p>The Publish-Subscribe pattern is a subdivision of the Observer pattern. In this specific pattern there are two parties: the publishers and subscribers. There is also a “middle-man” event bus that bridges these two parties. Whenever there is an update with the publisher, it sends a notification to the event bus. The event bus then notifies any subscriber to the publisher. I’ve used publications and subscriptions in Meteor to keep collections in mongoDB up-to-date.</p>
+
+<p>I’ve chosen this card as the caduceus is associated with the Greek god Hermes. Hermes is the messenger of the gods and reminds me of the event bus.</p>
+
+<h2 id="observer-reactive-data"><strong>Observer (Reactive Data)</strong></h2>
+<div style="text-align: center">
+<img style="inset-inline: auto" src="../img/patterns/team-skull-grunts.png" width="300" />
+</div>
+<p>Another subdivision of the Observer pattern is reactive data. In this pattern there are once again two parties: the data and the user. Whenever there is an update to the data, any “user” code will be rerun. I’ve come across this pattern in a project called “Bowfolios” where a reactive dictionary is used to track when code should be re-run to refresh the UI with new data.</p>
+
+<p>The card I’ve chosen is “Team Skull Grunts”. This is a reference to the fact the reactive element is almost a slave to the data. Whenever it is updated, the reactive element must react. In the same way the grunts of Team Skull must obey their leader.</p>
+
+<p>References:<br />
+<a href="https://www.legendarywolfgames.com/product/one-for-all-full-cowling-5-strike/">one-for-all.png</a></p>
+
+<p><a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=425974">agent-of-masks.jpg</a></p>
+
+<p><a href="https://www.amazon.com/Yu-Gi-Oh-Artifact-Caduceus-PRIO-EN017-Unlimited/dp/B00KY43ECI">caduceus.jpg</a></p>
+
+<p><a href="https://www.pokemon.com/us/pokemon-tcg/pokemon-cards/series/sm1/133/">team-skull-grunts.png</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

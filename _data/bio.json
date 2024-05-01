@@ -1,0 +1,98 @@
+{
+  "basics": {
+    "name": "Emily Pham",
+    "label": "Student at the University of Hawaii",
+    "picture": "https://github.com/empham.png",
+    "email": "emilyn3(at)hawaii.edu",
+    "phone": "",
+    "website": "https://empham.github.io",
+    "summary": "I am pursuing a B.S. in Computer Engineering in the Department of Engineering and a minor in Japanese in the Department of East Asian Languages & Literature. I expect to graduate in Spring, 2024.",
+    "location": { "address": "Mōʻiliʻili", "postalCode": "96826", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "empham", "url": "http://github.com/empham" },
+      { "network": "linkedin", "username": "emilynpham", "url": "https://www.linkedin.com/in/emilynpham/" },
+      { "network": "instagram", "username": "sirluciole", "url": "https://instagram.com/sirluciole?igshid=OGQ5ZDc2ODk2ZA==" }
+    ]
+  },
+  "interests": [
+    { "name": "Biomedical Sensors" },
+    { "name": "Networks" },
+    { "name": "Photography" },
+    { "name": "日本語" }
+  ],
+  "skills": [
+    {
+      "name": "Languages (Medium/Advance)",
+      "keywords": [ "C", "C++", "MIPS Assembly", "MatLab" ]
+    },
+    {
+      "name": "Languages (Basic)",
+      "keywords": [ "Javascript", "Python ", "SystemVerilog" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Windows 10", "Linux", "Git/GitHub", "g++", "Bash" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii: Mānoa, Honolulu, HI",
+      "area": "Computer Engineering (expected Spring, 2024)",
+      "studyType": "B.S.",
+      "minor": "Japanese",
+      "minorStudyType": "Minor",
+      "startDate": "2019-08-01",
+      "endDate": "Present",
+      "key courses": [
+        "Object-oriented Programming",
+        "Software Engineering",
+        "Microelectronic Circuits"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "UH Manoa Children's Center",
+      "position": "Teacher's Aide",
+      "website": "https://manoa.hawaii.edu/childrenscenter/",
+      "startDate": "2019-07-01",
+      "endDate": "2022-08-01",
+      "summary": "",
+      "highlights": [
+        "As part of a team, worked alongside the teachers to care for children from ages 2 to 4 years old",
+        "Being a senior aide, acted as a substitute teacher on numerous occasions"
+      ]
+    },
+    {
+      "company": "Honeyboba",
+      "position": "Barista",
+      "website": "",
+      "startDate": "2018-07-01",
+      "endDate": "2018-09-01",
+      "summary": "",
+      "highlights": [
+        "Took customer's orders, prepared beverages, and restocked topping bar in an efficient manner",
+        "Maintained a clean and tidy kitchen and dining area to ensure a safe environment"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Provost Achievement (formerly Chancellor’s) Scholarship",
+      "date": "Fall 2019 - Spring 2023",
+      "awarder": "University of Hawaii",
+      "summary": "One of the The New Warrior Scholarships that is awarded to new incoming students which provides recognition and support to outstanding students based on their academic accomplishments and contributions to their community."
+    },
+    {
+      "title": "Dean's List",
+      "date": "Spring 2020 - Spring 2022",
+      "awarder": "University of Hawaii College of Engineering",
+      "summary": "Signifies a student's completion of 12 or more credits with a GPA of 3.5 or higher, and recognizes their overall excellent academic performance for the semester."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
